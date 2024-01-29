@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
-struct xamanagerApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+// @main
+//struct xamanagerApp: App {
+//    var body: some Scene {
+//        MenuBarExtra("Xamanager", systemImage: "hammer"){
+//            XamanagerMenu()
+//        }
+//    }
+//}

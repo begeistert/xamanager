@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		A8286D3B2B662736002AC005 /* xamanagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D3A2B662736002AC005 /* xamanagerApp.swift */; };
-		A8286D3D2B662736002AC005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D3C2B662736002AC005 /* ContentView.swift */; };
 		A8286D3F2B662737002AC005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8286D3E2B662737002AC005 /* Assets.xcassets */; };
 		A8286D422B662737002AC005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8286D412B662737002AC005 /* Preview Assets.xcassets */; };
 		A8286D4D2B662737002AC005 /* xamanagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D4C2B662737002AC005 /* xamanagerTests.swift */; };
 		A8286D572B662737002AC005 /* xamanagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D562B662737002AC005 /* xamanagerUITests.swift */; };
 		A8286D592B662737002AC005 /* xamanagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D582B662737002AC005 /* xamanagerUITestsLaunchTests.swift */; };
+		A8286D662B6627DD002AC005 /* XamanagerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D652B6627DD002AC005 /* XamanagerMenu.swift */; };
+		A8286D682B662BFD002AC005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D672B662BFD002AC005 /* AppDelegate.swift */; };
+		A8286D6A2B662C7B002AC005 /* Xamanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D692B662C7B002AC005 /* Xamanager.swift */; };
+		A8286D6C2B662C90002AC005 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D6B2B662C90002AC005 /* Menu.swift */; };
+		A8286D6F2B662F4E002AC005 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D6E2B662F4E002AC005 /* NSNotificationName.swift */; };
+		A8286D722B6630E1002AC005 /* XamarinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D712B6630E1002AC005 /* XamarinService.swift */; };
+		A8286D752B663135002AC005 /* XamarinVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D742B663135002AC005 /* XamarinVersion.swift */; };
+		A8286D772B663198002AC005 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D762B663198002AC005 /* Platform.swift */; };
+		A8286D9E2B67869E002AC005 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286D9D2B67869E002AC005 /* main.swift */; };
+		A8286DA12B678836002AC005 /* XamarinListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DA02B678836002AC005 /* XamarinListSection.swift */; };
+		A8286DA32B67893D002AC005 /* MainMenuActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DA22B67893D002AC005 /* MainMenuActions.swift */; };
+		A8286DA52B678C32002AC005 /* NSMenuItem+ImageInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DA42B678C32002AC005 /* NSMenuItem+ImageInit.swift */; };
+		A8286DA72B678C5D002AC005 /* XamarinMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DA62B678C5D002AC005 /* XamarinMenuItem.swift */; };
+		A8286DA92B678CCA002AC005 /* NSMenuItem+ConvenienceInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DA82B678CCA002AC005 /* NSMenuItem+ConvenienceInit.swift */; };
+		A8286DAB2B678CF3002AC005 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DAA2B678CF3002AC005 /* SubMenuItem.swift */; };
+		A8286DAD2B67963D002AC005 /* NSAlert+showError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DAC2B67963D002AC005 /* NSAlert+showError.swift */; };
+		A8286DAF2B6796F8002AC005 /* Bundle+appName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DAE2B6796F8002AC005 /* Bundle+appName.swift */; };
+		A8286DB12B67972A002AC005 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8286DB02B67972A002AC005 /* Command.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +53,6 @@
 /* Begin PBXFileReference section */
 		A8286D372B662736002AC005 /* xamanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xamanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8286D3A2B662736002AC005 /* xamanagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xamanagerApp.swift; sourceTree = "<group>"; };
-		A8286D3C2B662736002AC005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8286D3E2B662737002AC005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8286D412B662737002AC005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8286D432B662737002AC005 /* xamanager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xamanager.entitlements; sourceTree = "<group>"; };
@@ -45,6 +61,25 @@
 		A8286D522B662737002AC005 /* xamanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xamanagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8286D562B662737002AC005 /* xamanagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xamanagerUITests.swift; sourceTree = "<group>"; };
 		A8286D582B662737002AC005 /* xamanagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xamanagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8286D652B6627DD002AC005 /* XamanagerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamanagerMenu.swift; sourceTree = "<group>"; };
+		A8286D672B662BFD002AC005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8286D692B662C7B002AC005 /* Xamanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xamanager.swift; sourceTree = "<group>"; };
+		A8286D6B2B662C90002AC005 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A8286D6E2B662F4E002AC005 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
+		A8286D712B6630E1002AC005 /* XamarinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamarinService.swift; sourceTree = "<group>"; };
+		A8286D742B663135002AC005 /* XamarinVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamarinVersion.swift; sourceTree = "<group>"; };
+		A8286D762B663198002AC005 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		A8286D9D2B67869E002AC005 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A8286DA02B678836002AC005 /* XamarinListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamarinListSection.swift; sourceTree = "<group>"; };
+		A8286DA22B67893D002AC005 /* MainMenuActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuActions.swift; sourceTree = "<group>"; };
+		A8286DA42B678C32002AC005 /* NSMenuItem+ImageInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMenuItem+ImageInit.swift"; sourceTree = "<group>"; };
+		A8286DA62B678C5D002AC005 /* XamarinMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamarinMenuItem.swift; sourceTree = "<group>"; };
+		A8286DA82B678CCA002AC005 /* NSMenuItem+ConvenienceInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMenuItem+ConvenienceInit.swift"; sourceTree = "<group>"; };
+		A8286DAA2B678CF3002AC005 /* SubMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuItem.swift; sourceTree = "<group>"; };
+		A8286DAC2B67963D002AC005 /* NSAlert+showError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAlert+showError.swift"; sourceTree = "<group>"; };
+		A8286DAE2B6796F8002AC005 /* Bundle+appName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+appName.swift"; sourceTree = "<group>"; };
+		A8286DB02B67972A002AC005 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		A8286DB22B679B15002AC005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +130,20 @@
 		A8286D392B662736002AC005 /* xamanager */ = {
 			isa = PBXGroup;
 			children = (
+				A8286DB22B679B15002AC005 /* Info.plist */,
+				A8286D9F2B678818002AC005 /* MenuItems */,
+				A8286D732B66311E002AC005 /* Model */,
+				A8286D702B662FBA002AC005 /* Service */,
+				A8286D6D2B662F38002AC005 /* Extensions */,
 				A8286D3A2B662736002AC005 /* xamanagerApp.swift */,
-				A8286D3C2B662736002AC005 /* ContentView.swift */,
 				A8286D3E2B662737002AC005 /* Assets.xcassets */,
 				A8286D432B662737002AC005 /* xamanager.entitlements */,
 				A8286D402B662737002AC005 /* Preview Content */,
+				A8286D652B6627DD002AC005 /* XamanagerMenu.swift */,
+				A8286D672B662BFD002AC005 /* AppDelegate.swift */,
+				A8286D692B662C7B002AC005 /* Xamanager.swift */,
+				A8286D6B2B662C90002AC005 /* Menu.swift */,
+				A8286D9D2B67869E002AC005 /* main.swift */,
 			);
 			path = xamanager;
 			sourceTree = "<group>";
@@ -129,6 +173,47 @@
 			path = xamanagerUITests;
 			sourceTree = "<group>";
 		};
+		A8286D6D2B662F38002AC005 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8286D6E2B662F4E002AC005 /* NSNotificationName.swift */,
+				A8286DA42B678C32002AC005 /* NSMenuItem+ImageInit.swift */,
+				A8286DA82B678CCA002AC005 /* NSMenuItem+ConvenienceInit.swift */,
+				A8286DAC2B67963D002AC005 /* NSAlert+showError.swift */,
+				A8286DAE2B6796F8002AC005 /* Bundle+appName.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A8286D702B662FBA002AC005 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A8286D712B6630E1002AC005 /* XamarinService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A8286D732B66311E002AC005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8286D742B663135002AC005 /* XamarinVersion.swift */,
+				A8286D762B663198002AC005 /* Platform.swift */,
+				A8286DB02B67972A002AC005 /* Command.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8286D9F2B678818002AC005 /* MenuItems */ = {
+			isa = PBXGroup;
+			children = (
+				A8286DA02B678836002AC005 /* XamarinListSection.swift */,
+				A8286DA22B67893D002AC005 /* MainMenuActions.swift */,
+				A8286DA62B678C5D002AC005 /* XamarinMenuItem.swift */,
+				A8286DAA2B678CF3002AC005 /* SubMenuItem.swift */,
+			);
+			path = MenuItems;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +230,8 @@
 			dependencies = (
 			);
 			name = xamanager;
+			packageProductDependencies = (
+			);
 			productName = xamanager;
 			productReference = A8286D372B662736002AC005 /* xamanager.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +304,9 @@
 				Base,
 			);
 			mainGroup = A8286D2E2B662736002AC005;
+			packageReferences = (
+				A8286D782B66374C002AC005 /* XCRemoteSwiftPackageReference "ink" */,
+			);
 			productRefGroup = A8286D382B662736002AC005 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +349,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8286D3D2B662736002AC005 /* ContentView.swift in Sources */,
+				A8286D772B663198002AC005 /* Platform.swift in Sources */,
+				A8286D722B6630E1002AC005 /* XamarinService.swift in Sources */,
+				A8286D682B662BFD002AC005 /* AppDelegate.swift in Sources */,
+				A8286D662B6627DD002AC005 /* XamanagerMenu.swift in Sources */,
+				A8286DA72B678C5D002AC005 /* XamarinMenuItem.swift in Sources */,
+				A8286D6A2B662C7B002AC005 /* Xamanager.swift in Sources */,
+				A8286DA12B678836002AC005 /* XamarinListSection.swift in Sources */,
+				A8286DA52B678C32002AC005 /* NSMenuItem+ImageInit.swift in Sources */,
 				A8286D3B2B662736002AC005 /* xamanagerApp.swift in Sources */,
+				A8286DA92B678CCA002AC005 /* NSMenuItem+ConvenienceInit.swift in Sources */,
+				A8286DAB2B678CF3002AC005 /* SubMenuItem.swift in Sources */,
+				A8286DAD2B67963D002AC005 /* NSAlert+showError.swift in Sources */,
+				A8286DAF2B6796F8002AC005 /* Bundle+appName.swift in Sources */,
+				A8286DA32B67893D002AC005 /* MainMenuActions.swift in Sources */,
+				A8286D9E2B67869E002AC005 /* main.swift in Sources */,
+				A8286DB12B67972A002AC005 /* Command.swift in Sources */,
+				A8286D752B663135002AC005 /* XamarinVersion.swift in Sources */,
+				A8286D6F2B662F4E002AC005 /* NSNotificationName.swift in Sources */,
+				A8286D6C2B662C90002AC005 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +536,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xamanager/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +565,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xamanager/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -581,6 +692,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8286D782B66374C002AC005 /* XCRemoteSwiftPackageReference "ink" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnsundell/ink.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = A8286D2F2B662736002AC005 /* Project object */;
 }
